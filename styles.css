@@ -1,0 +1,153 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("gradient.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #443a33;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0.5em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: rgb(168, 130, 130);
+}
+
+main {
+    text-align: center;
+    padding: 2em 0;
+}
+
+main h1, main h4 {
+    color:#28211d;
+}
+
+.pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    margin: 2em auto;
+    max-width: 1200px;
+}
+
+.pricing-section {
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+    margin: 1em;
+    text-align: left;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-section h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.pricing-section h5 {
+    font-size: 1.25em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #443a33;
+}
+
+.pricing-section ul {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+.pricing-section li {
+    margin-bottom: 0.5em;
+}
+
+.pricing-section button {
+    background-color: #443a33;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 1.05em;
+    padding: 0.75em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.pricing-section button:hover {
+    background-color: #382c23;
+    transform: scale(1.05);
+}
+
+.customization {
+    margin: 2em 0;
+}
+
+.customization label {
+    margin-right: 0.5em;
+    color: #28211d;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.customization select {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #443a33;
+    color: whitesmoke;
+    padding: 1em;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+footer a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(168, 130, 130);
+}

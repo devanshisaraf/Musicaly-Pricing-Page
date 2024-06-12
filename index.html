@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" id="logo">Musicaly</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Select the plan that fits your jam!</h1>
+        <h4>Cancel or upgrade anytime</h4>
+        <div class="pricing-table">
+            <div class="pricing-section" data-plan="mini">
+                <h2>Mini</h2>
+                <h5 class="price">&#8377; 7 for 1 day</h5>
+                <ul>
+                    <li>1 mobile-only Premium account</li>
+                    <li>Offline listening of up to 30 songs</li>   
+                    <li>One-time payment</li> 
+                    <li>Basic audio quality</li>       
+                </ul>
+                <button>Get Premium Mini</button>
+            </div>
+            <div class="pricing-section" data-plan="individual">
+                <h2>Individual</h2>
+                <h5 class="price">&#8377; 119/month</h5>
+                <ul>
+                    <li>1 Premium account</li>
+                    <li>Unlimited Downloads</li>
+                    <li>Cancel anytime</li>
+                    <li>Subscribe or one-time payment</li>      
+                </ul>
+                <button>Get Premium Individual</button>
+            </div>
+            <div class="pricing-section" data-plan="duo">
+                <h2>Duo</h2>
+                <h5 class="price">&#8377; 149/month</h5>
+                <ul>
+                    <li>2 Premium accounts</li>
+                    <li>Unlimited Downloads</li>
+                    <li>Cancel anytime</li>
+                    <li>Subscribe or one-time payment</li>      
+                </ul>
+                <button>Get Premium Duo</button>
+            </div>
+            <div class="pricing-section" data-plan="family">
+                <h2>Family</h2>
+                <h5 class="price">&#8377; 179/month</h5>
+                <ul>
+                    <li>Up to 6 Premium accounts</li>
+                    <li>Control content marked as explicit</li>
+                    <li>Cancel anytime</li>
+                    <li>Subscribe or one-time payment</li>      
+                </ul>
+                <button>Get Premium Family</button>
+            </div>
+            
+            <div class="pricing-section" data-plan="student">
+                <h2>Student</h2>
+                <h5 class="price">&#8377; 59/month</h5>
+                <ul>
+                    <li>1 verified Premium account</li>
+                    <li>Discount for eligible students</li>
+                    <li>Cancel anytime</li>
+                    <li>Subscribe or one-time payment</li>      
+                </ul>
+                <button>Get Premium Student</button>
+            </div>
+        </div>
+        <div class="customization">
+            <div class="currency-switcher">
+                <label for="currency">Currency:</label>
+                <select id="currency">
+                    <option value="USD" data-symbol="$">USD</option>
+                    <option value="EUR" data-symbol="€">EUR</option>
+                    <option value="GBP" data-symbol="£">GBP</option>
+                    <option value="INR" data-symbol="₹" selected>INR</option>
+                </select>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="index.html" id="logo">Musicaly</a></li>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Safety & Privacy Center</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookies</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
