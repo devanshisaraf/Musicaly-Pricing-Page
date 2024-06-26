@@ -61,10 +61,6 @@ musicaly-pricing-page/
 
 Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) file for details.
-
 ---
 
-Thank you for checking out the Musicaly Pricing Page project. We hope you find it useful and inspiring! If you have any questions or feedback, feel free to reach out.
+Thank you for checking out the Musicaly Pricing Page project. I hope you find it useful and inspiring! If you have any questions or feedback, feel free to reach out.
